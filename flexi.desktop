@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Flexi
+Comment=Dynamic window manager
+Exec=flexi
+Icon=dwm
+Type=XSession
