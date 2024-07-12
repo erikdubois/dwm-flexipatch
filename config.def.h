@@ -404,7 +404,6 @@ static const char *layoutmenu_cmd = "layoutmenu.sh";
 #endif
 
 #if BAR_LAUNCHER_PATCH
-//#define launcher_padding 8
 static const Launcher launchers[] = {
     /* icon to display			command        */
     { "^c#e06c75^ﱲ^d^",        CMD("discord") },
