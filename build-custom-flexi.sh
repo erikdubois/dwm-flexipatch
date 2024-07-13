@@ -63,6 +63,7 @@ cp -v sxhkdrc ~/.config/flexi
 cp -v picom-toggle.sh ~/.config/flexi
 cp -rv launcher ~/.config/flexi
 cp -rv scripts ~/.config/flexi
+cp -rv picom ~/.config/flexi
 
 echo
 tput setaf 2

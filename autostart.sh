@@ -34,7 +34,8 @@ run "xfce4-power-manager"
 run "blueberry-tray"
 run "/usr/lib/xfce4/notifyd/xfce4-notifyd"
 run "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
-picom &
+#picom &
+picom -b  --config ~/.config/flexi/picom/picom.conf
 run "numlockx on"
 run "volumeicon"
 #run slstatus &
