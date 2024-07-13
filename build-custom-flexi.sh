@@ -48,7 +48,6 @@ sudo pacman -S --noconfirm --needed xfce4-screenshooter
 sudo pacman -S --noconfirm --needed xorg-xrandr
 
 # File management
-
 if [ -d sysmon ] ; then
 	sudo rm -r sysmon
 fi
@@ -61,6 +60,7 @@ fi
 cp -v autostart.sh ~/.config/flexi
 cp -v sxhkdrc ~/.config/flexi
 cp -v picom-toggle.sh ~/.config/flexi
+# copying folders to ~/.config/flexi
 cp -rv launcher ~/.config/flexi
 cp -rv scripts ~/.config/flexi
 cp -rv picom ~/.config/flexi
