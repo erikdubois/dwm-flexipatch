@@ -45,6 +45,7 @@ sudo pacman -S --noconfirm --needed picom
 sudo pacman -S --noconfirm --needed rofi-lbonn-wayland
 sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed sxhkd
+sudo pacman -S --noconfirm --needed ttf-meslo-nerd-font-powerlevel10k
 sudo pacman -S --noconfirm --needed xfce4-screenshooter
 sudo pacman -S --noconfirm --needed xorg-xrandr
 
