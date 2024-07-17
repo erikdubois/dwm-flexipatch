@@ -32,6 +32,7 @@ sudo pacman -S --noconfirm --needed arcolinux-dwm-st-git
 sudo pacman -S --noconfirm --needed arcolinux-nlogout-git
 sudo pacman -S --noconfirm --needed arcolinux-powermenu-git
 sudo pacman -S --noconfirm --needed btop
+sudo pacman -S --noconfirm --needed dash
 sudo pacman -S --noconfirm --needed dex
 sudo pacman -S --noconfirm --needed feh
 sudo pacman -S --noconfirm --needed flameshot-git
