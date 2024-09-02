@@ -55,6 +55,25 @@ sudo pacman -S --noconfirm --needed xfce4-screenshooter
 sudo pacman -S --noconfirm --needed xorg-xrandr
 sudo pacman -S --noconfirm --needed xorg-xsetroot
 
+# When on Arch Linux
+if [ ! -f /etc/dev-rel ] ; then 
+
+	if grep -q "archlinux" /etc/os-release; then
+
+		echo
+		tput setaf 2
+		echo "################################################################"
+		echo "################### We are on ARCH LINUX"
+		echo "################################################################"
+		tput sgr0
+		echo
+
+		echo
+		echo "Installing packages"
+		sudo pacman -S --noconfirm --needed rofi
+	fi
+fi
+
 # File management
 if [ -d sysmon ] ; then
 	sudo rm -r sysmon
