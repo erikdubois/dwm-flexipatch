@@ -26,6 +26,7 @@
 #tput setaf 8 = light blue
 ##################################################################################################################
 
+sudo pacman -S --noconfirm --needed git
 git clone https://aur.archlinux.org/yay-bin.git /tmp/yay-bin
 cd /tmp/yay-bin
 makepkg
