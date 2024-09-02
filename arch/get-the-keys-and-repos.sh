@@ -2,6 +2,7 @@
 
 ######################################################################################################################
 sudo pacman -Sy
+sudo pacman -S --noconfirm --needed git
 sudo pacman -S wget --noconfirm --needed
 sudo pacman -S jq --noconfirm --needed
 arco_repo_db=$(wget -qO- https://api.github.com/repos/arcolinux/arcolinux_repo/contents/x86_64)
