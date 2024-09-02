@@ -72,6 +72,7 @@ if [ ! -f /etc/dev-rel ] ; then
 		echo "Installing packages"
 		sudo pacman -S --noconfirm --needed rofi
 		cp -rv powermenu ~/.config/
+		sudo cp -v powermenu/arcolinux-powermenu /usr/local/sbin/
 	fi
 fi
 
