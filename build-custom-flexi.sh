@@ -53,6 +53,7 @@ sudo pacman -S --noconfirm --needed ttf-nerd-fonts-symbols
 sudo pacman -S --noconfirm --needed ttf-nerd-fonts-symbols-common
 sudo pacman -S --noconfirm --needed xfce4-screenshooter
 sudo pacman -S --noconfirm --needed xorg-xrandr
+sudo pacman -S --noconfirm --needed xorg-xsetroot
 
 # File management
 if [ -d sysmon ] ; then
