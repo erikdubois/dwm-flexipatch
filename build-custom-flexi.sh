@@ -45,8 +45,9 @@ sudo pacman -S --noconfirm --needed picom
 sudo pacman -S --noconfirm --needed rofi-lbonn-wayland
 sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed sxhkd
+sudo pacman -S --noconfirm --needed ttf-dejavu
+sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed ttf-jetbrains-mono-nerd
-sudo pacman -S --noconfirm --needed ttf-meslo-nerd-font-powerlevel10k
 sudo pacman -S --noconfirm --needed ttf-meslo-nerd-font-powerlevel10k
 sudo pacman -S --noconfirm --needed ttf-nerd-fonts-symbols
 sudo pacman -S --noconfirm --needed ttf-nerd-fonts-symbols-common
