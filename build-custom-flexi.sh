@@ -71,6 +71,7 @@ if [ ! -f /etc/dev-rel ] ; then
 		echo
 		echo "Installing packages"
 		sudo pacman -S --noconfirm --needed rofi
+		cp -rv powermenu ~/.config/
 	fi
 fi
 
