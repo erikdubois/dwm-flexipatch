@@ -2,7 +2,7 @@
 
 Here is an example of what you can do with the flexipatch from bakkeby.
 
-In here you will find all the choice and all the code I used to create this desktop based on DWM.
+In this github project you will find all the choices and all the code and packages I used to create this desktop based on DWM.
 
 All the info/education goes into videos on Youtube.
 
