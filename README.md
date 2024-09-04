@@ -1,5 +1,16 @@
 # Flexi
 
+Here is an example of what you can do with the flexipatch from bakkeby.
+
+In here you will find all the choice and all the code I used to create this desktop based on DWM.
+
+All the info/education goes into videos on Youtube.
+
+https://www.youtube.com/playlist?list=PLlloYVGq5pS6dPVFWs39h_cmRYd4OP7IZ
+
+https://www.youtube.com/playlist?list=PLlloYVGq5pS7AYRb5GgMu8Bx7WDiM3rgq
+
+
  <img src="https://github.com/erikdubois/dwm-flexipatch/blob/main/preview/flexi.png">
 
 This dwm 6.5 (5687f46, 2024-06-08) side project has a different take on dwm patching. It uses preprocessor directives to decide whether or not to include a patch during build time. Essentially this means that this build, for better or worse, contains both the patched _and_ the original code. The aim being that you can select which patches to include and the build will contain that code and nothing more. Due to the complexity of some of the patches dwm-flexipatch has diverged from mainstream dwm by making some core patches non-optional for maintenance reasons. For the classic dwm-flexipatch build refer to branch [dwm-flexipatch-1.0](https://github.com/bakkeby/dwm-flexipatch/tree/dwm-flexipatch-1.0).
