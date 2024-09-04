@@ -25,10 +25,6 @@ echo
 
 user_choice="n"
 
-cd arch
-./install-yay-bin.sh
-yay -S ttf-meslo-nerd-font-powerlevel10k --noconfirm
-
 # install packages
 sudo pacman -S --noconfirm --needed alacritty
 sudo pacman -S --noconfirm --needed arandr
@@ -72,6 +68,17 @@ if [ ! -f /etc/dev-rel ] ; then
 		echo "################################################################"
 		tput sgr0
 		echo
+
+		echo
+		echo "Pacman parallel downloads	"
+		FIND="#ParallelDownloads = 5"
+		REPLACE="ParallelDownloads = 5"
+		sudo sed -i "s/$FIND/$REPLACE/g" /etc/pacman.conf
+
+		cd arch
+		./install-yay-bin.sh
+		yay -S ttf-meslo-nerd-font-powerlevel10k --noconfirm
+		cd ..
 
 		echo
 		echo "Installing packages"
