@@ -132,7 +132,7 @@ fi
 
 cd arch
 ./install-yay-bin.sh
-yay -S ttf-meslo-nerd-font-powerlevel10k
+yay -S ttf-meslo-nerd-font-powerlevel10k --noconfirm
 
 echo
 tput setaf 2
