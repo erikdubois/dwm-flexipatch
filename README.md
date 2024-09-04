@@ -1,4 +1,4 @@
-** Flexi
+# Flexi
 
  <img src="https://github.com/erikdubois/dwm-flexipatch/blob/main/preview/flexi.png">
 
