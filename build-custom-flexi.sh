@@ -130,8 +130,8 @@ if [ -f /usr/local/bin/var ];then
 	/usr/local/bin/var
 fi
 
-echo "install yay-bin via folder Arch if you want this to install"
-echo "two extra icons for the bar"
+cd arch
+./install-yay-bin.sh
 yay -S ttf-meslo-nerd-font-powerlevel10k
 
 echo
