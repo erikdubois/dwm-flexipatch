@@ -25,6 +25,10 @@ echo
 
 user_choice="n"
 
+cd arch
+./install-yay-bin.sh
+yay -S ttf-meslo-nerd-font-powerlevel10k --noconfirm
+
 # install packages
 sudo pacman -S --noconfirm --needed alacritty
 sudo pacman -S --noconfirm --needed arandr
@@ -129,10 +133,6 @@ sh sysmon.sh
 if [ -f /usr/local/bin/var ];then
 	/usr/local/bin/var
 fi
-
-cd arch
-./install-yay-bin.sh
-yay -S ttf-meslo-nerd-font-powerlevel10k --noconfirm
 
 echo
 tput setaf 2
