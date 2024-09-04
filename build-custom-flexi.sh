@@ -73,7 +73,7 @@ if [ ! -f /etc/dev-rel ] ; then
 		sudo pacman -S --noconfirm --needed rofi
 		cp -rv powermenu ~/.config/
 		sudo cp -v powermenu/arcolinux-powermenu /usr/local/sbin/
-		sudo cp -v background/flexi.png /usr/share/backgrounds
+		sudo cp -v wallpaper/flexi.png /usr/share/backgrounds
 	fi
 fi
 
