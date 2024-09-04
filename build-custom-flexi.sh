@@ -31,6 +31,7 @@ sudo pacman -S --noconfirm --needed arandr
 sudo pacman -S --noconfirm --needed arcolinux-dwm-st-git
 sudo pacman -S --noconfirm --needed arcolinux-nlogout-git
 sudo pacman -S --noconfirm --needed arcolinux-powermenu-git
+sudo pacman -S --noconfirm --needed bash-completion
 sudo pacman -S --noconfirm --needed btop
 sudo pacman -S --noconfirm --needed dash
 sudo pacman -S --noconfirm --needed dex
