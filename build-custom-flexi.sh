@@ -42,7 +42,7 @@ sudo pacman -S --noconfirm --needed go
 sudo pacman -S --noconfirm --needed imlib2
 sudo pacman -S --noconfirm --needed lxappearance
 sudo pacman -S --noconfirm --needed numlockx
-sudo pacman -S --noconfirm --needed picom
+sudo pacman -S --noconfirm --needed picom-git
 sudo pacman -S --noconfirm --needed rofi-lbonn-wayland
 sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed sxhkd
