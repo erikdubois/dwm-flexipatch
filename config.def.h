@@ -167,9 +167,9 @@ static void (*bartabmonfns[])(Monitor *) = { NULL /* , customlayoutfn */ };
 #endif // MONOCLE_LAYOUT
 #endif // BAR_TABGROUPS_PATCH
 #if BAR_PANGO_PATCH
-static const char font[]                 = "monospace 15";
+static const char font[]                 = "monospace 16";
 #else
-static const char *fonts[]               = { "monospace:size=15" };
+static const char *fonts[]               = { "monospace:size=16" };
 #endif // BAR_PANGO_PATCH
 static const char dmenufont[]            = "monospace:size=14";
 
