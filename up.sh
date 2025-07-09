@@ -48,10 +48,6 @@ wget -v https://raw.githubusercontent.com/erikdubois/edu-chadwm/refs/heads/main/
 
 workdir=$(pwd)
 
-if [ -d sysmon ]; then
-	sudo rm -r sysmon
-fi
-
 # Below command will backup everything inside the project folder
 git add --all .
 

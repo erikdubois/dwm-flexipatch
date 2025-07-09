@@ -10,10 +10,8 @@ function run {
   fi
 }
 
-#sysmon  -s 2 --format '  CPU $CPU% | $TIME' &
 pkill bar.sh
 ~/.config/flexi/scripts/bar.sh &
-#run "dex $HOME/.config/autostart/arcolinux-welcome-app.desktop"
 
 #for virtualbox
 #run xrandr --output Virtual-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal
@@ -36,20 +34,13 @@ run "xfce4-power-manager"
 run "blueberry-tray"
 run "/usr/lib/xfce4/notifyd/xfce4-notifyd"
 run "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
-#picom &
 picom -b  --config ~/.config/flexi/picom/picom.conf
 run "numlockx on"
 run "volumeicon"
-#run slstatus &
 sxhkd -c ~/.config/flexi/sxhkdrc &
 #run "nitrogen --restore"
-#run "conky -c $HOME/.config/arco-dwm/system-overview"
-#you can set wallpapers in themes as well
-feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
-feh --bg-fill /usr/share/backgrounds/arco/arco-wallpaper.jpg &
-#wallpaper for other Arch based systems
-#feh --bg-fill /usr/share/archlinux-tweak-tool/data/wallpaper/wallpaper.png &
-feh --bg-fill /usr/share/backgrounds/flexi.png &
+#feh --bg-fill /usr/share/backgrounds/archlinux/arch-wallpaper.jpg &
+
 #run applications from startup
 
 #run "insync start"
