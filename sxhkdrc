@@ -76,19 +76,31 @@ super + x
 
 #powermenu
 super + shift + x
-    arcolinux-powermenu
+    edu-powermenu
 
 #nlogout
 alt + shift + x
+    nlogout
+
+#nlogout
+alt + x
     nlogout
 
 #Rofi theme selector
 super + r
     rofi-theme-selector
 
+#Alacritty
+super + t
+    st
+
 #Pavucontrol
 super + v
     pavucontrol
+
+#Pragha
+#super + m
+#    pragha
 
 #alacritty
 super + Return
@@ -399,3 +411,10 @@ XF86MonBrightnessDown
 #Picom Toggle
 ctrl + alt + o
     ~/.config/flexi/picom-toggle.sh
+
+#update
+ctrl + alt + shift + F1
+   update-system
+
+super + ctrl + shift + F1
+   update-system
