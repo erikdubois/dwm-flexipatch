@@ -423,13 +423,13 @@ static const char *layoutmenu_cmd = "layoutmenu.sh";
 #if BAR_LAUNCHER_PATCH
 static const Launcher launchers[] = {
     /* icon to display			command        */
-    { "^c#e06c75^ﱲ^d^",        CMD("discord") },
+    //{ "^c#e06c75^ﱲ^d^",        CMD("discord") },
     { "^c#caaa6a^^d^",        CMD("firefox") },
     { "^c#61afef^^d^",        CMD("brave") },
     { "^c#caaa6a^^d^",         CMD("opera") },
     { "^c#d57780^虜^d^",         CMD("mintstick", "-m", "iso") },
     { "^c#aaaa6a^墳^d^",         CMD("pavucontrol") },
-    { "^c#7EC7A2^^d^",        CMD("telegram-desktop") },
+    //{ "^c#7EC7A2^^d^",        CMD("telegram-desktop") },
     { "^c#51aaee^^d^",      	CMD("vivaldi") },
 };
 #endif // BAR_LAUNCHER_PATCH
