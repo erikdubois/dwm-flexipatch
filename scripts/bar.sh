@@ -6,7 +6,7 @@
 interval=0
 
 # load colors
-. ~/.config/flexi/scripts/bar_themes/onedark
+. ~/.config/flexi/scripts/bar_themes/twodark
 
 cpu() {
   cpu_val=$(grep -o "^[^ ]*" /proc/loadavg)
@@ -51,7 +51,7 @@ wlan() {
 
 clock() {
 	#printf "^c$black^ ^b$darkblue^ 󱑆 "
-	printf "^c$black^^b$blue^ $(date '+%d/%m/%y %H:%M')  "
+	printf "^c$black^^b$dawn^ $(date '+%d/%m/%y %H:%M')  "
 }
 
 while true; do
