@@ -1,5 +1,5 @@
 void
-loadxrdb()
+load_xresources()
 {
 	Display *display;
 	char * resm;
@@ -48,6 +48,10 @@ loadxrdb()
 				XRDB_LOAD_COLOR("dwm.urgbgcolor", urgbgcolor);
 				XRDB_LOAD_COLOR("dwm.urgbordercolor", urgbordercolor);
 				XRDB_LOAD_COLOR("dwm.urgfloatcolor", urgfloatcolor);
+				#if BAR_LTSYMBOL_SCHEME_PATCH
+				XRDB_LOAD_COLOR("dwm.ltsymbolfgcolor", ltsymbolfgcolor);
+				XRDB_LOAD_COLOR("dwm.ltsymbolbgcolor", ltsymbolbgcolor);
+				#endif // BAR_LTSYMBOL_SCHEME_PATCH
 				#if RENAMED_SCRATCHPADS_PATCH
 				XRDB_LOAD_COLOR("dwm.scratchselfgcolor", scratchselfgcolor);
 				XRDB_LOAD_COLOR("dwm.scratchselbgcolor", scratchselbgcolor);
@@ -123,7 +127,7 @@ loadxrdb()
 void
 xrdb(const Arg *arg)
 {
-	loadxrdb();
+	load_xresources();
 	int i;
 	for (i = 0; i < LENGTH(colors); i++)
 		scheme[i] = drw_scm_create(drw, colors[i],

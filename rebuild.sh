@@ -4,3 +4,6 @@ make clean
 make
 sudo make install
 make clean
+
+mkdir -p "$HOME/.config/flexi"
+cp -rv "$HOME/DATA/dwm-flexipatch/"* "$HOME/.config/flexi/"
