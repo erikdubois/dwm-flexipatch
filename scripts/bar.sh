@@ -21,9 +21,9 @@ pkg_updates() {
   # updates=$({ timeout 20 aptitude search '~U' 2>/dev/null || true; } | wc -l)  # apt (ubuntu, debian etc)
 
   if [ -z "$updates" ]; then
-    printf " ^c$green^  Fully Updated"
+    printf "  ^c$green^     Fully Updated"
   else
-    printf " ^c$green^  $updates"" updates"
+    printf "  ^c$green^     $updates"" updates"
   fi
 }
 
@@ -38,8 +38,8 @@ brightness() {
 }
 
 mem() {
-  printf "^c$white^^b$black^  "
-  printf "^c$white^ $(free -h | awk '/^Mem/ { print $3 }' | sed s/i//g)"
+  printf "^c$blue^^b$black^  "
+  printf "^c$blue^ $(free -h | awk '/^Mem/ { print $3 }' | sed s/i//g)"
 }
 
 wlan() {
@@ -51,7 +51,7 @@ wlan() {
 
 clock() {
 	#printf "^c$black^ ^b$darkblue^ 󱑆 "
-	printf "^c$black^^b$dawn^ $(date '+%d/%m/%y %H:%M')  "
+	printf "^c$black^^b$blue^ $(date '+%d/%m/%y %H:%M')  "
 }
 
 while true; do

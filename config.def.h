@@ -424,13 +424,13 @@ static const char *layoutmenu_cmd = "layoutmenu.sh";
 static const Launcher launchers[] = {
     /* icon to display			command        */
     //{ "^c#e06c75^ﱲ^d^",        CMD("discord") },
-    { "^c#caaa6a^^d^",        CMD("firefox") },
-    { "^c#61afef^^d^",        CMD("brave") },
-    { "^c#caaa6a^^d^",         CMD("opera") },
+    //{ "^c#caaa6a^^d^",        CMD("firefox") },
+    //{ "^c#61afef^^d^",        CMD("brave") },
+    //{ "^c#caaa6a^^d^",         CMD("opera") },
     { "^c#d57780^虜^d^",         CMD("mintstick", "-m", "iso") },
-    { "^c#aaaa6a^墳^d^",         CMD("pavucontrol") },
+    //{ "^c#aaaa6a^墳^d^",         CMD("pavucontrol") },
     //{ "^c#7EC7A2^^d^",        CMD("telegram-desktop") },
-    { "^c#51aaee^^d^",      	CMD("vivaldi") },
+    //{ "^c#51aaee^^d^",      	CMD("vivaldi") },
 };
 #endif // BAR_LAUNCHER_PATCH
 
@@ -583,9 +583,6 @@ static const BarRule barrules[] = {
 	#if BAR_STATUSBUTTON_PATCH
 	{ -1,        0,     BAR_ALIGN_LEFT,   width_stbutton,           draw_stbutton,          click_stbutton,          NULL,                    "statusbutton" },
 	#endif // BAR_STATUSBUTTON_PATCH
-	#if BAR_LAUNCHER_PATCH
-	{ -1,        0,     BAR_ALIGN_LEFT,   width_launcher,           draw_launcher,          click_launcher,          NULL,                    "launcher" },
-	#endif // BAR_LAUNCHER_PATCH
 	#if BAR_POWERLINE_TAGS_PATCH
 	{  0,        0,     BAR_ALIGN_LEFT,   width_pwrl_tags,          draw_pwrl_tags,         click_pwrl_tags,         hover_pwrl_tags,         "powerline_tags" },
 	#endif // BAR_POWERLINE_TAGS_PATCH
@@ -604,6 +601,9 @@ static const BarRule barrules[] = {
 	#if BAR_LTSYMBOL_PATCH
 	{ -1,        0,     BAR_ALIGN_LEFT,   width_ltsymbol,           draw_ltsymbol,          click_ltsymbol,          NULL,                    "layout" },
 	#endif // BAR_LTSYMBOL_PATCH
+	#if BAR_LAUNCHER_PATCH
+	{ -1,        0,     BAR_ALIGN_LEFT,   width_launcher,           draw_launcher,          click_launcher,          NULL,                    "launcher" },
+	#endif // BAR_LAUNCHER_PATCH
 	#if BAR_STATUSCOLORS_PATCH && BAR_STATUSCMD_PATCH
 	{ statusmon, 0,     BAR_ALIGN_RIGHT,  width_statuscolors,       draw_statuscolors,      click_statuscmd,         NULL,                    "statuscolors" },
 	#elif BAR_STATUSCOLORS_PATCH
