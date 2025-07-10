@@ -165,13 +165,13 @@ ctrl + alt + Next
 ctrl + alt + Prior
     conky-rotate -p
 
-#File-Manager
+#Brave
 ctrl + alt + b
-     thunar
+     brave --password-store=basic
 
-#Catfish
+#Chromium
 ctrl + alt + c
-     catfish
+     chromium -no-default-browser-check
 
 #Chromium
 ctrl + alt + g
@@ -197,9 +197,12 @@ ctrl + alt + l
 ctrl + alt + p
     pamac-manager
 
-#Xfce4-settings-manager
+#Mintstick
 ctrl + alt + m
-     xfce4-settings-manager
+     mintstick -m iso
+
+ctrl + alt + ,
+     mintstick -m iso
 
 #Pulse Audio Control
 ctrl + alt + u
@@ -410,6 +413,10 @@ XF86MonBrightnessDown
 
 #Picom Toggle
 ctrl + alt + o
+    opera
+
+#Picom Toggle
+super + p
     ~/.config/flexi/picom-toggle.sh
 
 #update
