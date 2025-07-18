@@ -27,8 +27,8 @@ pkill bar.sh
 #run xrandr --output HDMI2 --right-of HDMI1 --auto
 #autorandr horizontal
 
-#run "nm-applet"
-#run "pamac-tray"
+run "nm-applet"
+run "pamac-tray"
 run "variety"
 run "xfce4-power-manager"
 run "blueberry-tray"
@@ -43,7 +43,7 @@ sxhkd -c ~/.config/flexi/sxhkdrc &
 
 #run applications from startup
 
-#run "insync start"
+run "insync start"
 #run "spotify"
 #run "ckb-next -b"
 #run "discord"
